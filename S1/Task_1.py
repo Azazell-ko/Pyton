@@ -1,15 +1,10 @@
 # Найти большее число из двух
-a= int(input("число А "))
 
-b= int(input("число Б "))
-
-print(a==b)
-
-n=[55,56,57]
-
+a = int(input('Введите число а '))
+b = int(input('Введите число b '))
 if a > b:
-    print(f"наибольшее число a = {a} ")
-elif a == b:
-    print("a==b")
-else:
-    print(f"наибольшее число b = {b} ")
+    print(f'Число {a} наибольшее')
+elif a<b:
+    print(f'Число {b} наибольшее')
+elif a==b:
+    print('Числа равны')

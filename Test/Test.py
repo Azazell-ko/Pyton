@@ -4,8 +4,6 @@
 # Output: 120
 
 n = int(input("Введите целое не отрицательное число "))
-if n == 0:
-    print("1")
 i=1
 factorial = 1
 while i <= n:
