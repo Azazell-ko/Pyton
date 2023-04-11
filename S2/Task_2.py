@@ -2,16 +2,16 @@
 # что φ(n)=A. Если А не является числом Фибоначчи, выведите число -1.
 # Input: 5 Output: 6
 
-n = int(input("Введите число "))
+n = int(input("Введите число ")) # 0 1 1 2 3 5 8 13 21 
 c=0
 k=1
-b=1
-while b<n+2:
+i=1
+while i<n+2:
      m=k+c
      k=c
      c=m
-     b=b+1
+     i=i+1
      if m==n:
-             print(b)
+             print(i)
              break
 else: print("-1")
